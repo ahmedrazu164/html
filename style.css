@@ -1,6 +1,13 @@
-.razu{
-    color:blue
+.razu{}
+.razu ul{
+    list-style-type: none;
 }
-.rzuu ul{}
-.razu ul li{}
+
+.rzuu ul{
+    display:inline-block
+}
+.razu ul li{
+    text-decoration: none
+    padding:8px
+}
 .razu ul li a
