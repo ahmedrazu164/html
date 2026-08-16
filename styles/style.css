@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    padding-left: 70px;
+}
+
+nav ul {
+    display: flex;
+
+    color: lch(36.99% 0.01 296.81 / 0.801);
+    list-style: none;
+    gap: 10px;
+    font-weight: 200;
+    align-items: center;
+}
+
+nav button,
+button {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-right: 80px;
+
+}
+
+/* <!--banner--> */
+header {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("/assets/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 500px;
+
+    width: auto;
+
+
+
+    text-align: center;
+    padding-top: 70px;
+}
+
+.hero h1 {
+
+    color: #ffffffFF;
+    font-size: 50px;
+    font-weight: 600px;
+
+}
+
+.hero p {
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.685);
+}
+
+.button {
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+
+
+
+/* <!--sectioncard--> */
+.speaker {
+    width: 80%;
+    margin: 50px 100px;
+}
+
+.speaker h2 {
+    /* font-weight: 800; */
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+.card {
+    width: 380px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1)
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 12px;
+    padding-left: 20px;
+    text-align: left;
+    color: #2563eb;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.card p,
+strong {
+    text-align: left;
+    padding-left: 9px;
+    padding-bottom: 9px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card h5 {
+    color: hwb(0 34% 66% / 0.726);
+    padding-left: 14px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+
+
+
+}
+
+/* 
+    grid-template-coumns: repeat display: drid;
+    grid-template-coumns: repeat
+        /* display:flex; */
+/* flex-wrap: wrap;
+   gap:30px; */
+*/
+/* .speaker-container {
+    display: flex;
+    gap: 20px;
+} */
