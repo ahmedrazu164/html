@@ -146,19 +146,5 @@ strong {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 9px;
-
-
-
 }
 
-/* 
-    grid-template-coumns: repeat display: drid;
-    grid-template-coumns: repeat
-        /* display:flex; */
-/* flex-wrap: wrap;
-   gap:30px; */
-*/
-/* .speaker-container {
-    display: flex;
-    gap: 20px;
-} */
